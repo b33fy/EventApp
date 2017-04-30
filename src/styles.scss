@@ -1,0 +1,29 @@
+
+@import './app/styles/fonts.scss';
+@import './app/styles/variables.scss';
+@import './app/styles/mediaqueries.scss';
+
+body {
+  font: 100% $font-stack  ;
+  color: $font-primary-color;
+  font-size: $font-primary-size;
+}
+
+.sitename {
+    color: white;    
+}
+
+.sitename:hover {
+    color: red;
+}
+.contentContainer {
+    margin-top: 80px;
+}
+
+.cwhite {
+    color: white;
+}
+
+.smicon img {
+    width: 50px;
+}

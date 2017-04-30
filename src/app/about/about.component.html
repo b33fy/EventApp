@@ -1,5 +1,5 @@
-<div class="contentContainer" style="margin-top: 100px;">
-    <h3>Event List</h3>
+<div class="contentContainer">
+    <h3>About the GT Car Club</h3>
     <section>
         <section *ngIf="isLoading && !errorMessage">
             Loading our hyperdrives!!! Retrieving data...
@@ -9,10 +9,27 @@
             in Motorsport.</p>
         <p>From word and mouth, members started to grow to the point where a website was required to notify of upcoming events.
             www.gtcarclub.com was spawned. Over the next 3 years the website changed a fair bit until it was completed in
-            2005.</p>
+            2005.
+        </p>
         <p>The GT Car Club is a free club to join and has always been this way</p>
         <p>In April 2010, this new website was launched. The website is not completed but has the main drive of the new website,
             he Forum. The forum will be used as the main tool for organising events</p>
+        <!--<a href="{{hot4sImageUrl}}" target="_blank"><img src="{{hot4sImageUrl}}" alt="{{hot4sImageAltText}}" width="250px;" /></a>-->
+
+        <div class="table">
+            <div class="row">
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{gtccIconUrl}}" alt="{{hot4sImageAltText}}"><a href="{{hot4sImageUrl}}" target="_facebook">GT Car Club feature in Hot4's (2000)</a></div>                
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{facebookIconUrl}}" alt="{{facebookIconAltText}}"><a href="{{facebookLinkUrl}}" target="_facebook">Facebook Public page</a></div>
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{instagramIconUrl}}" alt="{{instagramIconAltText}}"><a href="{{instagramLinkUrl}}" target="_instagram">Instagram page</a></div>
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{vimeoIconUrl}}" alt="{{gtccTrackDayPromo2AltText}}"><a href="{{gtccTrackDayPromo2Video}}" target="_vimeo">{{gtccTrackDayPromo2AltText}}</a></div>
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{vimeoIconUrl}}" alt="{{gtccCharityCarwash2017AltText}}"><a href="{{vimeoGTCCCharityCarwash2017}}" target="_vimeo">{{gtccCharityCarwash2017AltText}}</a></div>
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{vimeoIconUrl}}" alt="{{gtccCharityCarwash2014AltText}}"><a href="{{vimeoGTCCCharityCarwash2014}}" target="_vimeo">{{gtccCharityCarwash2014AltText}}</a></div>
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{vimeoIconUrl}}" alt="{{gtccTrackDayPromo1AltText}}"><a href="{{gtccTrackDayPromo1Video}}" target="_vimeo">{{gtccTrackDayPromo1AltText}}</a></div>
+                <div class="smicon col-xs-12 col-lg-6"><img src="{{vimeoIconUrl}}" alt="{{gtccCarsAndCoffeeTeaserAltText}}"><a href="{{gtccCarsAndCoffeeTeaserVideo}}" target="_vimeo">{{gtccCarsAndCoffeeTeaserAltText}}</a></div>
+                
+                
+            </div>
+        </div>
         <section *ngIf="errorMessage">
             {{errorMessage}}
         </section>

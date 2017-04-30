@@ -1,0 +1,83 @@
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: $screen-xxs-max) {
+
+    h3 {
+        font-size: 15px;        
+        font-weight: bold;
+    }
+
+    .content-standard, p {
+        font-size: 12.5px;        
+    } 
+
+    .sitename {
+        font-size: 13px;
+    }
+
+    .navbar-nav>li>a {
+        font-size: 12.5px;
+        line-height: 12.5px;
+    }
+
+    .smicon img {
+        width: 20px;
+    }
+
+    .smicon a {
+        font-size:  12.5px;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .content-standard, p {
+        font-size: 14px;        
+    } 
+
+    .sitename {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .smicon img {
+        width: 20px;
+    }
+
+    .smicon a {
+        font-size:  14px;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: $screen-lg-min) {
+
+}
+
+
+
+
+
+

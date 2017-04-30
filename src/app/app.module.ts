@@ -10,13 +10,15 @@ import { appRoutes } from './app.routes';
 import { RouterModule } from '@angular/router';
 import { EventListComponent } from './event-list/event-list.component';
 import { EventService } from './event-table/event.service';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     EventListComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
