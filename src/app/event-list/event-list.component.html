@@ -1,0 +1,16 @@
+<p>Event List</p>
+<section>
+    <section *ngIf="isLoading && !errorMessage">
+    Loading our hyperdrives!!! Retrieving data...
+    </section>
+    <ul>        
+        <li *ngFor="let e of myevent">
+            <a href="#" [routerLink]="['/event', e.EventId]">
+          {{e.EventName}}
+          </a>
+        </li>
+      </ul>
+      <section *ngIf="errorMessage">
+        {{errorMessage}}
+      </section>
+  </section>

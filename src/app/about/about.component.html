@@ -1,0 +1,20 @@
+<div class="contentContainer" style="margin-top: 100px;">
+    <h3>Event List</h3>
+    <section>
+        <section *ngIf="isLoading && !errorMessage">
+            Loading our hyperdrives!!! Retrieving data...
+        </section>
+        <p>The GT Car Club is a Melbourne based car club which was originally started by a group of friends back in year 2000.
+            For the first year or so the GTCC was not open to the public and was a get together of friends with interest
+            in Motorsport.</p>
+        <p>From word and mouth, members started to grow to the point where a website was required to notify of upcoming events.
+            www.gtcarclub.com was spawned. Over the next 3 years the website changed a fair bit until it was completed in
+            2005.</p>
+        <p>The GT Car Club is a free club to join and has always been this way</p>
+        <p>In April 2010, this new website was launched. The website is not completed but has the main drive of the new website,
+            he Forum. The forum will be used as the main tool for organising events</p>
+        <section *ngIf="errorMessage">
+            {{errorMessage}}
+        </section>
+    </section>
+</div>
